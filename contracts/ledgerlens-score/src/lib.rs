@@ -48,6 +48,9 @@ mod test_velocity_cap;
 mod test_velocity_cap_prop;
 
 #[cfg(test)]
+mod test_mutation_kills;
+
+#[cfg(test)]
 mod test_score_floor;
 
 #[cfg(test)]
