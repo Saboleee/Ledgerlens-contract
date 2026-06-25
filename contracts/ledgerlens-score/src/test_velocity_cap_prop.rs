@@ -27,7 +27,7 @@ fn setup_fresh_env<'a>() -> (Env, LedgerLensScoreContractClient<'a>, Address, Ad
 }
 
 proptest! {
-    #![proptest_config(ProptestConfig::with_cases(256))]
+    #![proptest_config(ProptestConfig::with_cases(1000))]
 
     /// Property 1: For any score sequence with velocity cap V, every accepted consecutive delta is <= V.
     #[test]
